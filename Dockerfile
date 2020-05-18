@@ -10,6 +10,6 @@ RUN set -x && \
 	tar xzf linux_amd64_server.tar.gz && \
     rm linux_amd64_server.tar.gz
 
-VOLUME /nps/conf
+VOLUME /conf
 
-CMD /nps/nps
+CMD /nps
